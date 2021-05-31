@@ -69,10 +69,10 @@ functions:
           cors: true
           integration: lambda-proxy
 resources:
-  # - ${file(resources/sqs-queue.yml)}
-  # - ${file(resources/table.yml)}
-  # - ${file(resources/s3-bucket.yml)}
-  # - ${file(resources/cognito-identity-pool.yml)}
+   - ${file(resources/sqs-queue.yml)}
+   - ${file(resources/table.yml)}
+   - ${file(resources/s3-bucket.yml)}
+   - ${file(resources/cognito-identity-pool.yml)}
   # - ${file(resources/cognito-user-pool.yml)}
   # events:
   #     - sqs:
